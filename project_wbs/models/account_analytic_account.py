@@ -225,7 +225,7 @@ class AccountAnalyticAccount(models.Model):
             res.append((account.id, data))
         return res
 
-    _sql_constraints = [
-        ('analytic_unique_wbs_code', 'UNIQUE (complete_wbs_code)',
-         _('The full wbs code must be unique!')),
-    ]
+    # _sql_constraints = [
+    #     ('analytic_unique_wbs_code', 'UNIQUE (complete_wbs_code)',
+    #      _('The full wbs code must be unique!')),
+    # ]
